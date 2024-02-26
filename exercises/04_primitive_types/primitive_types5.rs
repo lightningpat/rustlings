@@ -9,7 +9,8 @@
 
 fn main() {
     let cat = ("Furry McFurson", 3.5);
-    let /* your pattern here */ = cat;
+    let tup = cat;
+    let(name,age)= tup;
 
     println!("{} is {} years old.", name, age);
 }
